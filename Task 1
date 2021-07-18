@@ -1,0 +1,49 @@
+<!DocType html>
+
+<html>
+<head>
+<title>This is my first web page</title>
+</head>
+<body>
+<h1 style="color: red;">
+Welcome to SIT120
+</h1>
+<p>
+This is my first paragraph
+</p>
+<img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/10989/production/_114377976_gettyimages-610279844.jpg">
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Flynn</td>
+    <td>Holland</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Adam</td>
+    <td>Johnson</td>
+    <td>24</td>
+  </tr>
+</table>
+<button type="button">First Click!</button>
+<form action="/action_page.php" method="get">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Surname:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML =Date()">
+Click to display Date and Time.</button>
+<p id="demo"></p>
+</p>
+</button>
+
+</body>
+</html>
